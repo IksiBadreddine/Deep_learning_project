@@ -1,0 +1,48 @@
+{
+  "device": "mps",
+  "cell_comparison_ppl": {
+    "rnn": 63.913511372236705,
+    "lstm": 69.65301463406,
+    "gru": 57.4187925957402
+  },
+  "gradient_clipping": {
+    "none": 118.21401879748275,
+    "0.5": 138.86850381208717,
+    "1.0": 114.5934566217017,
+    "5.0": 132.59110230855248
+  },
+  "bleu_greedy": 0.0,
+  "bleu_beam": 0.0,
+  "examples": [
+    {
+      "src": "elle conduit vite",
+      "ref": "she drives fast",
+      "greedy": "she",
+      "beam": "she"
+    },
+    {
+      "src": "elle conduit vite",
+      "ref": "she drives fast",
+      "greedy": "she",
+      "beam": "she"
+    },
+    {
+      "src": "nous marchons lentement",
+      "ref": "we walk slowly",
+      "greedy": "she",
+      "beam": "she"
+    },
+    {
+      "src": "nous marchons lentement",
+      "ref": "we walk slowly",
+      "greedy": "she",
+      "beam": "she"
+    },
+    {
+      "src": "ils courent vite",
+      "ref": "they run fast",
+      "greedy": "she",
+      "beam": "she"
+    }
+  ]
+}
